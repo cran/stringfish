@@ -14,9 +14,9 @@ IS_GITHUB <- Sys.getenv("IS_GITHUB") != ""
 
 ## ----echo=FALSE, results='asis'-----------------------------------------------
 if(IS_GITHUB) {
-  cat('![](vignettes/bench_v2.png "bench_v2"){width=576px}')
+  cat('![](vignettes/bench_v3.png "bench_v3"){width=576px}')
 } else {
-  cat('![](bench_v2.png "bench_v2"){width=576px}')
+  cat('![](bench_v3.png "bench_v3"){width=576px}')
 }
 
 ## ----eval=FALSE---------------------------------------------------------------
